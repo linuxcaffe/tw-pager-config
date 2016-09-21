@@ -19,4 +19,4 @@ NOTE: this is in development. I am seeking help to refine it so that I can simpl
 ```
 $ tw <filter> <command>
 ```
-
+I would like to replace my .bashrc alias (alias tw='task') with this function.. suggestions and improvements welcome.
