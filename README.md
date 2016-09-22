@@ -14,7 +14,7 @@ alias tw='tless task'
 ```
 and execute task commands with
 ```
-$ tw <filter> <command>
+$ tw [filter] [command]
 ```
 and if the task output exceeds the page height, less will be invoked as a pager.
 
