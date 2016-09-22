@@ -3,14 +3,14 @@ a function that invokes a pager ("less" by default) when task reports exceed pag
 
 Add the following snippet to your ~/.profile
 ```
-twless ()
+tless ()
 {
     echo "$("$@" rc._forcecolor=on rc.defaultwidth=`tput cols`)" | less -r -X -F;
 };
 ```
 then, in your ~/.bashrc file, add the alias;
 ```
-alias tw='twless task'
+alias tw='tless task'
 ```
 and execute task commands with
 ```
